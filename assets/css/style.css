@@ -11,6 +11,16 @@ body{
 }
 /*---------------------------
 --------------header-------------------*/
+.download{
+    text-align: center;
+}
+.catalogue{
+    border-radius: 8px;
+background-color: purple;
+border: none;
+color: white;
+padding: 10px 20px;
+}
 .header-image {
     background-image: url(../images/header.jpg);
     width: 100%;
@@ -22,7 +32,7 @@ body{
 .box {
     position: absolute;
     margin-left: 30px;
-    width: 30%;
+    width: 35%;
     margin-top: -60px;
 }
 
@@ -100,10 +110,12 @@ body{
     max-width: 100% !important;
     width: 100% !important;
     margin-bottom: 60px;
+    margin-top: 160px;
 }
 
 .titleinfo {
     margin-top: 50px;
+    margin-left: 20px;
 }
 
 .t3 {
@@ -193,6 +205,7 @@ margin-right: 2px;
 
 .pheadertext {
     padding: 0px 30px;
+    padding-left: 20px !important;
 }
 
 .pt3 {
@@ -269,6 +282,11 @@ margin-right: 2px;
 /*-----------------------------
     --------responsive----------------------
     -----------------------------*/
+    @media(min-width:1712px){
+        .toptext{
+            font-size: 13px;
+        }
+    }
     @media(min-width:1700px){
        .box{
         width: 25%;
@@ -381,7 +399,7 @@ margin-right: 2px;
 
 @media(max-width:680px) {
     .toptext {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     .t1 {
@@ -432,7 +450,11 @@ margin-right: 2px;
         height: 250px;
     }
 }
-
+@media(max-width:527px){
+    .t4{
+        font-size: 16px;
+    }
+}
 @media(max-width:596px) {
     .innerbox {
         padding: 10px 20px;
@@ -665,32 +687,32 @@ margin-right: 2px;
 
     @media (max-width: 495px){
     .t4 {
-      font-size: 15px;
+      font-size: 14px;
     }
 }
-    @media (max-width: 406px){
+    @media (max-width: 420px){
         .t4 {
-          font-size: 13px;
+          font-size: 12px;
         }
 
 }
 
 
-@media (max-width: 363px){
-    .t4 {
-      font-size: 12px;
-    }
-
-}
-
-
-@media (max-width: 335px){
+@media (max-width: 393px){
     .t4 {
       font-size: 11px;
     }
 
 }
-@media (max-width: 309px){
+
+
+@media (max-width: 338px){
+    .t4 {
+      font-size: 10px;
+    }
+
+}
+@media (max-width: 311px){
     .t4 {
       font-size: 9px;
     }
