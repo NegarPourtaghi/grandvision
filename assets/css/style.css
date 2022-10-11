@@ -95,7 +95,7 @@ padding: 10px 20px;
 }
 
 .headertext {
-    margin-top: 130px;
+    margin-top: 84px;
     margin-bottom: 100px;
 }
 
@@ -167,7 +167,13 @@ margin-right: 2px;
 .bolditem {
     font-weight: 700;
 }
-
+.downloadcatalogue{
+    text-decoration: none;
+    color: white;
+}
+.downloadcatalogue:hover , .downloadcatalogue:focus{
+    color: white;
+}
 /*----------------------
 ----------projects-------------
 -------------------------*/
@@ -279,6 +285,9 @@ margin-right: 2px;
     font-size: 24px;
     font-weight: 600;}
 
+    .iti {
+        width: 100%;
+    }
 /*-----------------------------
     --------responsive----------------------
     -----------------------------*/

@@ -5,7 +5,7 @@
     <title>Grandvision</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -41,7 +41,7 @@
 
     <div class="container c1">
         <div class="download">
-            <button class="catalogue">Download Catalogue</button>
+            <button class="catalogue"><a class="downloadcatalogue" href="./assets//ahc_main_brochure.pdf" download="">Download Catalogue</a></button>
         </div>
         <div class="headertext">
             <div class="title1">
@@ -150,13 +150,15 @@
                 </div>
                 <div class="form">
                     <h2 class="label">Phone Number</h2>
-                    <input class="input" type="tel">
+                    <input class="input" type='tel' id='phone' name='phone' maxlength='100'></input>
+
                 </div>
                 <div class="form">
                     <h2 class="label">Messages</h2>
                     <textarea class="input" name="" id="" cols="30" rows="5"></textarea>
                 </div>
             </div>
+          
 <div class="btnnext">
     <button class="btn2">Next</button>
 
@@ -168,13 +170,11 @@
     </div>
 
 
+  
 
 
 
-
-
-
-
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 
