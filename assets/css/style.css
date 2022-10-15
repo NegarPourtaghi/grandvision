@@ -82,7 +82,7 @@ padding: 10px 20px;
     margin-right: -50px;
 }
 
-.btn1 {
+.btn.btn1 {
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -93,7 +93,9 @@ padding: 10px 20px;
     border: none;
     color: white;
 }
-
+.btn.btn1:hover  , .btn.btn1:focus{
+    background-color: #343434 !important;
+}
 .headertext {
     margin-top: 84px;
     margin-bottom: 100px;
@@ -167,12 +169,19 @@ margin-right: 2px;
 .bolditem {
     font-weight: 700;
 }
-.downloadcatalogue{
+.btn.downloadcatalogue{
     text-decoration: none;
-    color: white;
+    color: #404348;
+    background-color: #FCD500;
+border: 1px solid #FCD500;
+padding: 10px 30px;
+border-radius: 8px;
+transition:  .5s ease-in-out;
 }
-.downloadcatalogue:hover , .downloadcatalogue:focus{
-    color: white;
+.btn.downloadcatalogue:hover , .btn.downloadcatalogue:focus{
+    background-color:white;
+    border: 1px solid #FCD500;
+color: #404348;
 }
 /*----------------------
 ----------projects-------------
@@ -263,16 +272,17 @@ margin-right: 2px;
     text-align: center;
 }
 
-.btn2 {
-    padding: 5px 15px;
-    border: none;
-    background-color: purple;
-    color: white;
-    font-weight: 600;
-    font-size: 15px;
-    border-radius: 4px;
+.btn.btn2{
+    background-color: #FCD500;
+    border: 1px solid #FCD500;
+    color: #404348;
+    transition:  .5s ease-in-out;
 }
-
+.btn.btn2:hover  , .btn .btn2:focus{
+    background-color:white !important;
+    border: 1px solid #FCD500;
+    color: #404348;
+}
 .btnlink {
     text-decoration: none;
     color: white;
@@ -390,7 +400,7 @@ margin-right: 2px;
         font-size: 14px;
     }
 
-    .btn1 {
+    .btn.btn1 {
         width: 35px;
         height: 35px;
     }
@@ -436,7 +446,7 @@ margin-right: 2px;
         font-size: 14px;
     }
 
-    .btn1 {
+    .btn.btn1 {
         width: 35px;
         height: 35px;
     }
@@ -561,7 +571,7 @@ margin-right: 2px;
             font-size: 9px;
         }
 
-        .btn1 {
+        .btn.btn1 {
             width: 30px;
             height: 30px;
         }
@@ -780,3 +790,4 @@ margin-right: 2px;
         height: 200px;
       }
 }
+
